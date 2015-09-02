@@ -1,0 +1,7 @@
+<h1>Search Results</h1>
+
+<% if @results.empty? %>
+  <h2>No results matching that query.</h2>
+<% else %>
+  <%= render 'search/results' %>
+<% end %>
